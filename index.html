@@ -205,13 +205,6 @@
                         sceneId: "jogging_track"
                     },
                     {
-                        pitch: 0,
-                        yaw: 140,
-                        type: "scene",
-                        text: "Menuju Classroom",
-                        sceneId: "classroom"
-                    },
-                    {
                         pitch: 8,
                         yaw: 45,
                         type: "info",
@@ -236,79 +229,12 @@
                     },
                     {
                         pitch: 0,
-                        yaw: 40,
-                        type: "scene",
-                        text: "Menuju Classroom",
-                        sceneId: "classroom"
-                    },
-                    {
-                        pitch: 0,
                         yaw: -30,
                         type: "info",
                         text: "Jalur untuk berjalan santai dan berolahraga."
                     }
                 ]
             },
-
-            classroom: {
-                title: "Classroom",
-                type: "equirectangular",
-                panorama: "images/classroom.jpeg",
-                yaw: 0,
-                pitch: 0,
-                hotSpots: [
-                    {
-                        pitch: 0,
-                        yaw: -40,
-                        type: "scene",
-                        text: "Kembali ke Lapangan Terbuka",
-                        sceneId: "lapangan_terbuka"
-                    },
-                    {
-                        pitch: 0,
-                        yaw: 40,
-                        type: "scene",
-                        text: "Menuju Library",
-                        sceneId: "library"
-                    },
-                    {
-                        pitch: 10,
-                        yaw: 0,
-                        type: "info",
-                        text: "Area kegiatan belajar."
-                    }
-                ]
-            },
-
-            library: {
-                title: "Library",
-                type: "equirectangular",
-                panorama: "images/library.jpeg",
-                yaw: 0,
-                pitch: 0,
-                hotSpots: [
-                    {
-                        pitch: 0,
-                        yaw: -40,
-                        type: "scene",
-                        text: "Kembali ke Classroom",
-                        sceneId: "classroom"
-                    },
-                    {
-                        pitch: 0,
-                        yaw: 40,
-                        type: "scene",
-                        text: "Kembali ke Pintu Masuk",
-                        sceneId: "pintu_masuk"
-                    },
-                    {
-                        pitch: 10,
-                        yaw: 0,
-                        type: "info",
-                        text: "Area membaca dan belajar."
-                    }
-                ]
-            }
         };
 
         const viewer = pannellum.viewer("panorama", {
